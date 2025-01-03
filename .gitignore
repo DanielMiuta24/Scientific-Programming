@@ -1,0 +1,85 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+build/
+develop-eggs/
+.eggs/
+.eggs-info/
+dist/
+*.egg
+*.egg-info/
+
+# Pytest cache
+.pytest_cache/
+
+# Cache and log files
+*.log
+*.cache
+*.sqlite3
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.nox/
+coverage.xml
+htmlcov/
+*.cover
+.cache
+nosetests.xml
+test-results/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Editor directories and project files
+.vscode/
+.idea/
+*.iml
+
+# macOS system files
+.DS_Store
+
+# pipenv and poetry
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# PyInstaller files
+*.spec
+
+# Sphinx documentation
+docs/_build/
+*.doctrees
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Ignore any secrets
+.env
+*.key
+*.pem
+
+# Local development tools
+.mypy_cache/
+.pyre/
+.dmypy.json
+
+# Ignore logs and debug files
+debug.log
+
+# Ignore Python generated CSV and temporary output files
+*.csv
+*.out
+
+# Ignore Python Wheels
+*.whl
